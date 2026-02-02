@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anki Kartice – Angleščina</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🎓 Anki Kartice - Angleščina</h1>
+      <div class="dataset-picker">
+        <label for="dataset">Naloži nabor:</label>
+        <select id="dataset" class="select" title="Izberi nabor kartic">
+        </select>
+        <button id="reloadBtn" class="reload" title="Ponovno naloži izbrani nabor">Naloži</button>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <div class="card-section">
+        <div class="card-counter" id="cardCounter">Kartica 0 od 0</div>
+
+        <div id="cardContainer" class="card-container">
+          <div class="card" id="flashcard">
+            <div class="card-face card-front" id="cardFront">Izberi nabor in klikni "Naloži"</div>
+            <div class="card-face card-back" id="cardBack">🙂</div>
+          </div>
+        </div>
+
+        <!-- Audio Button -->
+        <div class="audio-controls">
+          <button class="btn-audio" id="audioBtn" title="Poslušaj izgovorjavo" disabled>
+            🔊 Poslušaj
+          </button>
+        </div>
+
+        <div class="controls">
+          <button class="btn" id="prevBtn" disabled>⬅️ Prejšnja</button>
+          <button class="btn" id="nextBtn" disabled>Naslednja ➡️</button>
+        </div>
+
+        <div class="keyboard-hint">
+          💡 Puščice za navigacijo, presledek za obračanje kartice
+          <br>👆 Povleci levo/desno za navigacijo na mobilnih napravah
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js?v=6"></script>
+</body>
+</html>

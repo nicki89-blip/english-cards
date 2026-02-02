@@ -1,0 +1,810 @@
+[
+  {
+    "question": "badminton",
+    "answer": "badminton"
+  },
+  {
+    "question": "tenis",
+    "answer": "tennis"
+  },
+  {
+    "question": "namizni tenis",
+    "answer": "table tennis"
+  },
+  {
+    "question": "deskanje na snegu",
+    "answer": "snowboarding"
+  },
+  {
+    "question": "lopar",
+    "answer": "racket"
+  },
+  {
+    "question": "smuči",
+    "answer": "skis"
+  },
+  {
+    "question": "poglej",
+    "answer": "look"
+  },
+  {
+    "question": "poslušaj",
+    "answer": "listen"
+  },
+  {
+    "question": "odpri",
+    "answer": "open"
+  },
+  {
+    "question": "zapri",
+    "answer": "close"
+  },
+  {
+    "question": "stoj",
+    "answer": "stand"
+  },
+  {
+    "question": "nasmehni se",
+    "answer": "smile"
+  },
+  {
+    "question": "smej se",
+    "answer": "laugh"
+  },
+  {
+    "question": "prinesi",
+    "answer": "bring"
+  },
+  {
+    "question": "poljubi",
+    "answer": "kiss"
+  },
+  {
+    "question": "dotakni se",
+    "answer": "touch"
+  },
+  {
+    "question": "sanjaj",
+    "answer": "dream"
+  },
+  {
+    "question": "kuhaj",
+    "answer": "cook"
+  },
+  {
+    "question": "peci",
+    "answer": "bake"
+  },
+  {
+    "question": "postavi",
+    "answer": "put"
+  },
+  {
+    "question": "obiraj sadje",
+    "answer": "pick fruit"
+  },
+  {
+    "question": "vstani",
+    "answer": "get up"
+  },
+  {
+    "question": "zajtrkuj",
+    "answer": "have breakfast"
+  },
+  {
+    "question": "obleci se",
+    "answer": "get dressed"
+  },
+  {
+    "question": "pojdi v šolo",
+    "answer": "go to school"
+  },
+  {
+    "question": "igraj se zunaj",
+    "answer": "play outside"
+  },
+  {
+    "question": "beri",
+    "answer": "read"
+  },
+  {
+    "question": "piši",
+    "answer": "write"
+  },
+  {
+    "question": "jahaj / vozi",
+    "answer": "ride"
+  },
+  {
+    "question": "recikliraj",
+    "answer": "recycle"
+  },
+  {
+    "question": "onesnažuj",
+    "answer": "pollute"
+  },
+  {
+    "question": "riši",
+    "answer": "draw"
+  },
+  {
+    "question": "skopaj se",
+    "answer": "have a bath"
+  },
+  {
+    "question": "tuširaj se",
+    "answer": "have a shower"
+  },
+  {
+    "question": "slikaj",
+    "answer": "paint"
+  },
+  {
+    "question": "postelji",
+    "answer": "make my bed"
+  },
+  {
+    "question": "uči se",
+    "answer": "study / learn"
+  },
+  {
+    "question": "ujemi avtobus",
+    "answer": "catch the bus"
+  },
+  {
+    "question": "pojdi peš v šolo",
+    "answer": "walk to school"
+  },
+  {
+    "question": "pouk",
+    "answer": "have lessons"
+  },
+  {
+    "question": "ščetkaj zobe",
+    "answer": "brush my teeth"
+  },
+  {
+    "question": "išči školjke",
+    "answer": "look for seashells"
+  },
+  {
+    "question": "naredi snežaka",
+    "answer": "make a snowman"
+  },
+  {
+    "question": "imej piknik",
+    "answer": "have a picnic"
+  },
+  {
+    "question": "peci kostanj",
+    "answer": "bake chestnuts"
+  },
+  {
+    "question": "čisti",
+    "answer": "clean"
+  },
+  {
+    "question": "zalivaj",
+    "answer": "water"
+  },
+  {
+    "question": "hraniti",
+    "answer": "feed"
+  },
+  {
+    "question": "bela",
+    "answer": "white"
+  },
+  {
+    "question": "rumena",
+    "answer": "yellow"
+  },
+  {
+    "question": "oranžna",
+    "answer": "orange"
+  },
+  {
+    "question": "rdeča",
+    "answer": "red"
+  },
+  {
+    "question": "roza",
+    "answer": "pink"
+  },
+  {
+    "question": "vijolična",
+    "answer": "purple"
+  },
+  {
+    "question": "modra",
+    "answer": "blue"
+  },
+  {
+    "question": "svetlo modra",
+    "answer": "light blue"
+  },
+  {
+    "question": "temno modra",
+    "answer": "dark blue"
+  },
+  {
+    "question": "zelena",
+    "answer": "green"
+  },
+  {
+    "question": "rjava",
+    "answer": "brown"
+  },
+  {
+    "question": "črna",
+    "answer": "black"
+  },
+  {
+    "question": "siva",
+    "answer": "grey"
+  },
+  {
+    "question": "zlata",
+    "answer": "gold"
+  },
+  {
+    "question": "srebrna",
+    "answer": "silver"
+  },
+  {
+    "question": "trikotnik",
+    "answer": "triangle"
+  },
+  {
+    "question": "trikotna oblika",
+    "answer": "triangular"
+  },
+  {
+    "question": "kvadrat",
+    "answer": "square"
+  },
+  {
+    "question": "pravokotnik",
+    "answer": "rectangle"
+  },
+  {
+    "question": "pravokotna oblika",
+    "answer": "rectangular"
+  },
+  {
+    "question": "srce",
+    "answer": "heart"
+  },
+  {
+    "question": "krog",
+    "answer": "circle"
+  },
+  {
+    "question": "okrogla",
+    "answer": "circular"
+  },
+  {
+    "question": "ravna",
+    "answer": "straight"
+  },
+  {
+    "question": "četrt",
+    "answer": "quarter"
+  },
+  {
+    "question": "minuta",
+    "answer": "minute"
+  },
+  {
+    "question": "ura",
+    "answer": "hour"
+  },
+  {
+    "question": "pol",
+    "answer": "half"
+  },
+  {
+    "question": "ura (na zapestju)",
+    "answer": "watch"
+  },
+  {
+    "question": "ura na steni",
+    "answer": "clock"
+  },
+  {
+    "question": "stolpna ura",
+    "answer": "tower clock"
+  },
+  {
+    "question": "hiša",
+    "answer": "house"
+  },
+  {
+    "question": "stanovanje",
+    "answer": "flat"
+  },
+  {
+    "question": "kmetija",
+    "answer": "farmhouse"
+  },
+  {
+    "question": "nebotičnik",
+    "answer": "skyscraper"
+  },
+  {
+    "question": "blok",
+    "answer": "block of flats"
+  },
+  {
+    "question": "iglu",
+    "answer": "igloo"
+  },
+  {
+    "question": "šotor",
+    "answer": "tent"
+  },
+  {
+    "question": "indijanski šotor tipi",
+    "answer": "teepee"
+  },
+  {
+    "question": "hiša na drevesu",
+    "answer": "treehouse"
+  },
+  {
+    "question": "grad",
+    "answer": "castle"
+  },
+  {
+    "question": "hiša dvojček",
+    "answer": "semi-detached house"
+  },
+  {
+    "question": "samostojna hiša",
+    "answer": "detached house"
+  },
+  {
+    "question": "kuhinja",
+    "answer": "kitchen"
+  },
+  {
+    "question": "stranišče",
+    "answer": "toilet"
+  },
+  {
+    "question": "dnevna soba",
+    "answer": "living room"
+  },
+  {
+    "question": "jedilnica",
+    "answer": "dining room"
+  },
+  {
+    "question": "hodnik",
+    "answer": "hall"
+  },
+  {
+    "question": "garaža",
+    "answer": "garage"
+  },
+  {
+    "question": "balkon",
+    "answer": "balcony"
+  },
+  {
+    "question": "Japonska",
+    "answer": "Japan"
+  },
+  {
+    "question": "Indija",
+    "answer": "India"
+  },
+  {
+    "question": "Islandija",
+    "answer": "Iceland"
+  },
+  {
+    "question": "Avstralija",
+    "answer": "Australia"
+  },
+  {
+    "question": "Avstrija",
+    "answer": "Austria"
+  },
+  {
+    "question": "Afrika",
+    "answer": "Africa"
+  },
+  {
+    "question": "Francija",
+    "answer": "France"
+  },
+  {
+    "question": "glava",
+    "answer": "head"
+  },
+  {
+    "question": "oko",
+    "answer": "eye"
+  },
+  {
+    "question": "uho",
+    "answer": "ear"
+  },
+  {
+    "question": "lase",
+    "answer": "hair"
+  },
+  {
+    "question": "nos",
+    "answer": "nose"
+  },
+  {
+    "question": "usta",
+    "answer": "mouth"
+  },
+  {
+    "question": "zob",
+    "answer": "tooth"
+  },
+  {
+    "question": "telo",
+    "answer": "body"
+  },
+  {
+    "question": "noga",
+    "answer": "leg"
+  },
+  {
+    "question": "roka",
+    "answer": "arm / hand"
+  },
+  {
+    "question": "stopalo",
+    "answer": "foot"
+  },
+  {
+    "question": "prst",
+    "answer": "finger"
+  },
+  {
+    "question": "prst na nogi",
+    "answer": "toe"
+  },
+  {
+    "question": "vrat",
+    "answer": "neck"
+  },
+  {
+    "question": "rama",
+    "answer": "shoulder"
+  },
+  {
+    "question": "rep",
+    "answer": "tail"
+  },
+  {
+    "question": "kljun",
+    "answer": "beak"
+  },
+  {
+    "question": "luske",
+    "answer": "scales"
+  },
+  {
+    "question": "krilo",
+    "answer": "wing"
+  },
+  {
+    "question": "šapa",
+    "answer": "paw"
+  },
+  {
+    "question": "kmečka žival",
+    "answer": "farm animal"
+  },
+  {
+    "question": "domišljijsko bitje",
+    "answer": "imaginary creature"
+  },
+  {
+    "question": "trava",
+    "answer": "grass"
+  },
+  {
+    "question": "listi",
+    "answer": "leaves"
+  },
+  {
+    "question": "džungla",
+    "answer": "jungle"
+  },
+  {
+    "question": "gozd",
+    "answer": "forest"
+  },
+  {
+    "question": "kača",
+    "answer": "snake"
+  },
+  {
+    "question": "slon",
+    "answer": "elephant"
+  },
+  {
+    "question": "krokodil",
+    "answer": "crocodile"
+  },
+  {
+    "question": "medved",
+    "answer": "bear"
+  },
+  {
+    "question": "kenguru",
+    "answer": "kangaroo"
+  },
+  {
+    "question": "zebra",
+    "answer": "zebra"
+  },
+  {
+    "question": "papiga",
+    "answer": "parrot"
+  },
+  {
+    "question": "pingvin",
+    "answer": "penguin"
+  },
+  {
+    "question": "delfin",
+    "answer": "dolphin"
+  },
+  {
+    "question": "tiger",
+    "answer": "tiger"
+  },
+  {
+    "question": "lev",
+    "answer": "lion"
+  },
+  {
+    "question": "žirafa",
+    "answer": "giraffe"
+  },
+  {
+    "question": "povodni konj",
+    "answer": "hippo"
+  },
+  {
+    "question": "nosorog",
+    "answer": "rhino"
+  },
+  {
+    "question": "osel",
+    "answer": "donkey"
+  },
+  {
+    "question": "metulj",
+    "answer": "butterfly"
+  },
+  {
+    "question": "mravlja",
+    "answer": "ant"
+  },
+  {
+    "question": "krava",
+    "answer": "cow"
+  },
+  {
+    "question": "hlače",
+    "answer": "trousers"
+  },
+  {
+    "question": "krilo",
+    "answer": "skirt"
+  },
+  {
+    "question": "srajca",
+    "answer": "shirt"
+  },
+  {
+    "question": "bluza",
+    "answer": "blouse"
+  },
+  {
+    "question": "obleka",
+    "answer": "dress"
+  },
+  {
+    "question": "jakna",
+    "answer": "jacket"
+  },
+  {
+    "question": "plašč",
+    "answer": "coat"
+  },
+  {
+    "question": "klobuk",
+    "answer": "hat"
+  },
+  {
+    "question": "škornji",
+    "answer": "boots"
+  },
+  {
+    "question": "čevlji",
+    "answer": "shoes"
+  },
+  {
+    "question": "japonke",
+    "answer": "flip flops"
+  },
+  {
+    "question": "kopalke",
+    "answer": "swimsuit"
+  },
+  {
+    "question": "športni copati",
+    "answer": "trainers"
+  },
+  {
+    "question": "pižama",
+    "answer": "pyjamas"
+  },
+  {
+    "question": "šolska uniforma",
+    "answer": "school uniform"
+  },
+  {
+    "question": "kopalke",
+    "answer": "swimming costume"
+  },
+  {
+    "question": "nočna srajca",
+    "answer": "nightdress"
+  },
+  {
+    "question": "nahrbtnik",
+    "answer": "rucksack"
+  },
+  {
+    "question": "sončna očala",
+    "answer": "sunglasses"
+  },
+  {
+    "question": "potapljaška cev",
+    "answer": "snorkel"
+  },
+  {
+    "question": "kopalne hlače",
+    "answer": "swimming trunks"
+  },
+  {
+    "question": "slovenščina",
+    "answer": "Slovene"
+  },
+  {
+    "question": "športna vzgoja",
+    "answer": "P.E."
+  },
+  {
+    "question": "matematika",
+    "answer": "Maths"
+  },
+  {
+    "question": "geografija",
+    "answer": "Geography"
+  },
+  {
+    "question": "angleščina",
+    "answer": "English"
+  },
+  {
+    "question": "francoščina",
+    "answer": "French"
+  },
+  {
+    "question": "nemščina",
+    "answer": "German"
+  },
+  {
+    "question": "naravoslovje",
+    "answer": "Science"
+  },
+  {
+    "question": "kuhanje",
+    "answer": "Cookery"
+  },
+  {
+    "question": "likovna vzgoja",
+    "answer": "Art"
+  },
+  {
+    "question": "glasbena vzgoja",
+    "answer": "Music"
+  },
+  {
+    "question": "tehnika",
+    "answer": "Technology"
+  },
+  {
+    "question": "računalništvo",
+    "answer": "Computing"
+  },
+  {
+    "question": "zgodovina",
+    "answer": "History"
+  },
+  {
+    "question": "telovadnica",
+    "answer": "gym"
+  },
+  {
+    "question": "plesna šola",
+    "answer": "dance school"
+  },
+  {
+    "question": "šolski zbor",
+    "answer": "school choir"
+  },
+  {
+    "question": "glasbene ure",
+    "answer": "music lessons"
+  },
+  {
+    "question": "balet",
+    "answer": "ballet"
+  },
+  {
+    "question": "dramski krožek",
+    "answer": "drama club"
+  },
+  {
+    "question": "keramični tečaj",
+    "answer": "pottery class"
+  },
+  {
+    "question": "gimnastika",
+    "answer": "gymnastics"
+  },
+  {
+    "question": "tečaji slikanja",
+    "answer": "art classes"
+  },
+  {
+    "question": "tečaji francoščine",
+    "answer": "French classes"
+  },
+  {
+    "question": "šolski orkester",
+    "answer": "school orchestra"
+  },
+  {
+    "question": "aerobika",
+    "answer": "aerobics"
+  },
+  {
+    "question": "operna hiša",
+    "answer": "opera house"
+  },
+  {
+    "question": "muzej",
+    "answer": "museum"
+  },
+  {
+    "question": "kino",
+    "answer": "cinema"
+  },
+  {
+    "question": "cerkev",
+    "answer": "church"
+  },
+  {
+    "question": "tempelj",
+    "answer": "temple"
+  },
+  {
+    "question": "stolp",
+    "answer": "tower"
+  }
+]

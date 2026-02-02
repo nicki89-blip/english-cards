@@ -1,0 +1,616 @@
+[
+  {
+    "question": "lase",
+    "answer": "hair"
+  },
+  {
+    "question": "prsti na roki",
+    "answer": "fingers"
+  },
+  {
+    "question": "nos",
+    "answer": "nose"
+  },
+  {
+    "question": "prsti na nogi",
+    "answer": "toes"
+  },
+  {
+    "question": "vrat",
+    "answer": "neck"
+  },
+  {
+    "question": "lica",
+    "answer": "cheeks"
+  },
+  {
+    "question": "obraz",
+    "answer": "face"
+  },
+  {
+    "question": "ušesa",
+    "answer": "ears"
+  },
+  {
+    "question": "obrvi",
+    "answer": "eyebrows"
+  },
+  {
+    "question": "brada (del obraza)",
+    "answer": "chin"
+  },
+  {
+    "question": "oči",
+    "answer": "eyes"
+  },
+  {
+    "question": "zobje",
+    "answer": "teeth"
+  },
+  {
+    "question": "glava",
+    "answer": "head"
+  },
+  {
+    "question": "usta",
+    "answer": "mouth"
+  },
+  {
+    "question": "roka",
+    "answer": "arm"
+  },
+  {
+    "question": "dlan",
+    "answer": "hand"
+  },
+  {
+    "question": "noga",
+    "answer": "leg"
+  },
+  {
+    "question": "stopalo",
+    "answer": "foot"
+  },
+  {
+    "question": "telo",
+    "answer": "body"
+  },
+  {
+    "question": "rama",
+    "answer": "shoulder"
+  },
+  {
+    "question": "komolec",
+    "answer": "elbow"
+  },
+  {
+    "question": "trebuh",
+    "answer": "stomach"
+  },
+  {
+    "question": "modre oči",
+    "answer": "blue eyes"
+  },
+  {
+    "question": "majhen nos",
+    "answer": "small nose"
+  },
+  {
+    "question": "okrogla usta",
+    "answer": "round mouth"
+  },
+  {
+    "question": "lep obraz",
+    "answer": "pretty face"
+  },
+  {
+    "question": "svetli lasje",
+    "answer": "blond hair"
+  },
+  {
+    "question": "dolg vrat",
+    "answer": "long neck"
+  },
+  {
+    "question": "beli zobje",
+    "answer": "white teeth"
+  },
+  {
+    "question": "tanke obrvi",
+    "answer": "thin eyebrows"
+  },
+  {
+    "question": "kratki kodrasti svetli lasje",
+    "answer": "short curly fair hair"
+  },
+  {
+    "question": "dolgi ravni lasje",
+    "answer": "long straight hair"
+  },
+  {
+    "question": "kratki kodrasti črni lasje",
+    "answer": "short curly black hair"
+  },
+  {
+    "question": "dolgi ravni srednje dolgi lasje",
+    "answer": "long straight medium hair"
+  },
+  {
+    "question": "kratki valoviti blond lasje",
+    "answer": "short wavy blond hair"
+  },
+  {
+    "question": "dolgi ravni blond lasje",
+    "answer": "long straight blonde hair"
+  },
+  {
+    "question": "kratki rjavi lasje",
+    "answer": "short brown hair"
+  },
+  {
+    "question": "dolgi valoviti rjavi lasje",
+    "answer": "long wavy brown hair"
+  },
+  {
+    "question": "ima frizuro na ježka",
+    "answer": "he has a crew cut"
+  },
+  {
+    "question": "ima kitke",
+    "answer": "she has pigtails"
+  },
+  {
+    "question": "je plešast",
+    "answer": "he is bald"
+  },
+  {
+    "question": "ima kito",
+    "answer": "she has a plait"
+  },
+  {
+    "question": "ima čop",
+    "answer": "she has a ponytail"
+  },
+  {
+    "question": "ima frufru",
+    "answer": "she has a fringe"
+  },
+  {
+    "question": "žalosten",
+    "answer": "sad"
+  },
+  {
+    "question": "jezen",
+    "answer": "angry"
+  },
+  {
+    "question": "ponosen",
+    "answer": "proud"
+  },
+  {
+    "question": "prestrašen",
+    "answer": "scared"
+  },
+  {
+    "question": "resen",
+    "answer": "serious"
+  },
+  {
+    "question": "vesel",
+    "answer": "happy"
+  },
+
+  {
+    "question": "Gor in dol.",
+    "answer": "Up and down."
+  },
+  {
+    "question": "Desno in levo.",
+    "answer": "Right and left."
+  },
+  {
+    "question": "Zapri oči.",
+    "answer": "Close your eyes."
+  },
+  {
+    "question": "Pokimaj z glavo.",
+    "answer": "Nod your head."
+  },
+  {
+    "question": "Migaj z ušesi.",
+    "answer": "Wiggle your ears."
+  },
+  {
+    "question": "Sedi na posteljo.",
+    "answer": "Sit on your bed."
+  },
+  {
+    "question": "To je Joejev nos.",
+    "answer": "This is Joe's nose."
+  },
+  {
+    "question": "To so Joejeva usta.",
+    "answer": "This is Joe's mouth."
+  },
+  {
+    "question": "To je Joejevo oko.",
+    "answer": "This is Joe's eye."
+  },
+  {
+    "question": "To je Joejevo uho.",
+    "answer": "This is Joe's ear."
+  },
+  {
+    "question": "To so Joejevi lasje.",
+    "answer": "This is Joe's hair."
+  },
+  {
+    "question": "Vesela je, ko dobi darilo.",
+    "answer": "She’s happy when she gets a present."
+  },
+  {
+    "question": "Žalostna je, ko se ne more igrati.",
+    "answer": "She’s sad when she can’t play with her friends."
+  },
+  {
+    "question": "Resna je, ko dela domačo nalogo.",
+    "answer": "She’s serious when she does her homework."
+  },
+  {
+    "question": "Ponosna je, ko dobi dobro oceno.",
+    "answer": "She’s proud when she gets a good mark."
+  },
+  {
+    "question": "Jezna je, ko se prijatelji norčujejo.",
+    "answer": "She’s angry when friends play tricks on her."
+  },
+  {
+    "question": "Prestrašena je, ko vidi kačo.",
+    "answer": "She’s scared when she sees a snake."
+  },
+  {
+    "question": "Ko sem žalosten, jokam.",
+    "answer": "When I’m sad, I cry."
+  },
+  {
+    "question": "Ko sem radoveden, sprašujem.",
+    "answer": "When I’m curious, I ask."
+  },
+  {
+    "question": "Ko mi je dolgčas, spim.",
+    "answer": "When I’m bored, I sleep."
+  },
+  {
+    "question": "Ko sem vesel, se smejim.",
+    "answer": "When I’m happy, I smile."
+  },
+  {
+    "question": "Ko sem sramežljiv, se skrijem.",
+    "answer": "When I’m shy, I hide."
+  },
+  {
+    "question": "Ko sem prestrašen, kričim.",
+    "answer": "When I’m scared, I scream."
+  },
+  {
+    "question": "Ko sem ljubeč, poljubim.",
+    "answer": "When I’m loving, I kiss."
+  },
+  {
+    "question": "Ko sem zmeden, skomignem.",
+    "answer": "When I’m puzzled, I shrug."
+  },
+  {
+    "question": "Kaj lahko tvoje oči delajo?",
+    "answer": "They can see."
+  },
+  {
+    "question": "Kaj lahko tvoji zobje delajo?",
+    "answer": "They can chew."
+  },
+  {
+    "question": "Kaj lahko tvoja ušesa delajo?",
+    "answer": "They can hear."
+  },
+  {
+    "question": "Kaj lahko tvoje roke delajo?",
+    "answer": "They can hug."
+  },
+  {
+    "question": "Kaj lahko tvoji prsti delajo?",
+    "answer": "They can touch."
+  },
+  {
+    "question": "Kaj lahko tvoj hrbet dela?",
+    "answer": "It can bend."
+  },
+  {
+    "question": "Kaj lahko tvoje noge delajo?",
+    "answer": "They can run."
+  },
+  {
+    "question": "Kaj lahko tvoja usta delajo?",
+    "answer": "It can kiss."
+  },
+  {
+    "question": "Kaj lahko tvoj nos dela?",
+    "answer": "It can smell."
+  },
+  {
+    "question": "Kaj lahko tvoje roke naredijo?",
+    "answer": "They can clap."
+  },
+  {
+    "question": "Kaj lahko tvoja glava naredi?",
+    "answer": "It can nod."
+  },
+  {
+    "question": "Ali lahko igraš košarko z eno roko?",
+    "answer": "Can you play basketball with one hand?"
+  },
+  {
+    "question": "Ali lahko daš noge za vrat?",
+    "answer": "Can you put your legs behind your neck?"
+  },
+  {
+    "question": "Ali lahko žvižgaš s prsti?",
+    "answer": "Can you whistle with your fingers?"
+  },
+  {
+    "question": "Ali lahko migljaš z ušesi?",
+    "answer": "Can you wiggle your ears?"
+  },
+  {
+    "question": "Ali se lahko dotakneš kolen z nosom?",
+    "answer": "Can you touch your knees with your nose?"
+  },
+  {
+    "question": "Ali lahko hodiš po rokah?",
+    "answer": "Can you walk on your hands?"
+  },
+  {
+    "question": "Ali lahko stojiš na glavi?",
+    "answer": "Can you stand on your head?"
+  },
+
+  {
+    "question": "Vidim tri glave.",
+    "answer": "I can see three heads."
+  },
+  {
+    "question": "Vidim štiri roke.",
+    "answer": "I can see four arms."
+  },
+  {
+    "question": "Vidim sedem oči.",
+    "answer": "I can see seven eyes."
+  },
+  {
+    "question": "Vidim štiri dlani.",
+    "answer": "I can see four hands."
+  },
+  {
+    "question": "Vidim tri usta.",
+    "answer": "I can see three mouths."
+  },
+  {
+    "question": "Vidim dvanajst prstov.",
+    "answer": "I can see twelve fingers."
+  },
+  {
+    "question": "Vidim šest ušes.",
+    "answer": "I can see six ears."
+  },
+  {
+    "question": "Vidim tri noge.",
+    "answer": "I can see three legs."
+  },
+  {
+    "question": "Vidim sedem zob.",
+    "answer": "I can see seven teeth."
+  },
+  {
+    "question": "Vidim tri stopala.",
+    "answer": "I can see three feet."
+  },
+  {
+    "question": "Vidim tri nosove.",
+    "answer": "I can see three noses."
+  },
+  {
+    "question": "Vidim devet prstov na nogi.",
+    "answer": "I can see nine toes."
+  },
+  {
+    "question": "Dve majhni očki, da gledata okrog.",
+    "answer": "Two little eyes to look around."
+  },
+  {
+    "question": "Dve majhni ušesi, da slišita vsak zvok.",
+    "answer": "Two little ears to hear each sound."
+  },
+  {
+    "question": "En majhen nos, da voha, kar je sladko.",
+    "answer": "One little nose to smell what's sweet."
+  },
+  {
+    "question": "Ena majhna usta, ki rada jedo.",
+    "answer": "One little mouth that likes to eat."
+  },
+  {
+    "question": "Njene oči lahko mežikajo.",
+    "answer": "Her eyes can wink."
+  },
+  {
+    "question": "Njena stopala lahko tečejo.",
+    "answer": "Her feet can run."
+  },
+  {
+    "question": "Njena roka lahko maha.",
+    "answer": "Her hand can wave."
+  },
+  {
+    "question": "Njena ušesa lahko migajo.",
+    "answer": "Her ears can wiggle."
+  },
+  {
+    "question": "Njena usta lahko rečejo živjo.",
+    "answer": "Her mouth can say hello."
+  },
+  {
+    "question": "Njeni prsti lahko pokažejo.",
+    "answer": "Her fingers can point."
+  },
+  {
+    "question": "Njena glava lahko kima.",
+    "answer": "Her head can nod."
+  },
+  {
+    "question": "Ima usta, a ne more govoriti.",
+    "answer": "It has a mouth but cannot talk."
+  },
+  {
+    "question": "Ima štiri noge, a ne more hoditi.",
+    "answer": "It has four legs but cannot walk."
+  },
+  {
+    "question": "Ima močna stopala, a ne more teči.",
+    "answer": "It has strong feet but cannot run."
+  },
+  {
+    "question": "Ima štiri noge in glavo. Kaj je to?",
+    "answer": "It has four feet and a head. What is it?"
+  },
+  {
+    "question": "Je to postelja?",
+    "answer": "Is it a bed?"
+  },
+  {
+    "question": "Deček vsak dan kolesari.",
+    "answer": "The boy cycles every day."
+  },
+  {
+    "question": "Njegov najljubši šport je kolesarjenje.",
+    "answer": "His favourite sport is cycling."
+  },
+  {
+    "question": "Fantje vsak dan tečejo.",
+    "answer": "The boys run every day."
+  },
+  {
+    "question": "Njihov najljubši šport je tek.",
+    "answer": "Their favourite sport is running."
+  },
+  {
+    "question": "Deklica pleza ob sobotah.",
+    "answer": "The girl climbs on Saturdays."
+  },
+  {
+    "question": "Njen najljubši šport je plezanje.",
+    "answer": "Her favourite sport is climbing."
+  },
+  {
+    "question": "Deklice igrajo odbojko vsak vikend.",
+    "answer": "The girls play volleyball every weekend."
+  },
+  {
+    "question": "Njihov najljubši šport je odbojka.",
+    "answer": "Their favourite sport is volleyball."
+  },
+  {
+    "question": "Fantje trenirajo karate ob sobotah.",
+    "answer": "The boys do karate on Saturdays."
+  },
+  {
+    "question": "Njihov najljubši šport je karate.",
+    "answer": "Their favourite sport is karate."
+  },
+  {
+    "question": "Deklice rolajo poleti.",
+    "answer": "The girls roller-skate in summer."
+  },
+  {
+    "question": "Njihov najljubši šport je rolanje.",
+    "answer": "Their favourite sport is roller-skating."
+  },
+  {
+    "question": "Star mož čuti, da se mu bliža smrt.",
+    "answer": "An old man feels the death is close."
+  },
+  {
+    "question": "Hoče dati sinovom pomemben nasvet.",
+    "answer": "He wants to give his sons some important advice."
+  },
+  {
+    "question": "Pokliče sinove k postelji.",
+    "answer": "He calls his sons to his bed."
+  },
+  {
+    "question": "Ukaže naj prinesejo šop palic.",
+    "answer": "He orders his servants to bring in a bundle of sticks."
+  },
+  {
+    "question": "Reče najstarejšemu sinu naj zlomi.",
+    "answer": "He says to his eldest son: 'Break it.'"
+  },
+  {
+    "question": "Sin ne more zlomiti šopa.",
+    "answer": "The son tries and tries but can't break the bundle."
+  },
+  {
+    "question": "Drugi sinovi tudi ne uspejo.",
+    "answer": "The other sons also try but none of them is successful."
+  },
+  {
+    "question": "Oče reče naj razvežejo šop.",
+    "answer": "'Untie the bundle,' says the father."
+  },
+  {
+    "question": "Vsak naj vzame palico.",
+    "answer": "'And each of you take a stick.'"
+  },
+  {
+    "question": "Vsaka palica se zlahka zlomi.",
+    "answer": "Then each stick is easily broken."
+  },
+  {
+    "question": "Zdaj razumete moj nasvet.",
+    "answer": "'You understand my advice now,' said their father."
+  },
+  {
+    "question": "V slogi je moč.",
+    "answer": "There is strength in unity."
+  },
+  {
+    "question": "Rdeča kapica.",
+    "answer": "Little Red Riding Hood."
+  },
+  {
+    "question": "košara",
+    "answer": "basket"
+  },
+  {
+    "question": "babica",
+    "answer": "grandma"
+  },
+  {
+    "question": "mama",
+    "answer": "mother"
+  },
+  {
+    "question": "hiša",
+    "answer": "house"
+  },
+  {
+    "question": "gozd",
+    "answer": "forest"
+  },
+  {
+    "question": "volk",
+    "answer": "wolf"
+  },
+  {
+    "question": "lovec",
+    "answer": "hunter"
+  }
+]
