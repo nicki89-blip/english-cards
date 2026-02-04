@@ -1,498 +1,498 @@
 [
   {
-    "question": "Puppy",
-    "answer": "Mladiček / Psiček"
+    "question": "Mladiček / Psiček",
+    "answer": "Puppy"
   },
   {
-    "question": "Guinea pig",
-    "answer": "Morski prašiček"
+    "question": "Morski prašiček",
+    "answer": "Guinea pig"
   },
   {
-    "question": "Hamster",
-    "answer": "Hrček"
+    "question": "Hrček",
+    "answer": "Hamster"
   },
   {
-    "question": "Turtle",
-    "answer": "Želva"
+    "question": "Želva",
+    "answer": "Turtle"
   },
   {
-    "question": "Lizard",
-    "answer": "Kuščar"
+    "question": "Kuščar",
+    "answer": "Lizard"
   },
   {
-    "question": "Rat",
-    "answer": "Podgana"
+    "question": "Podgana",
+    "answer": "Rat"
   },
   {
-    "question": "Monkey",
-    "answer": "Opica"
+    "question": "Opica",
+    "answer": "Monkey"
   },
   {
-    "question": "Mouse / Mice",
-    "answer": "Miš / Miši"
+    "question": "Miš / Miši",
+    "answer": "Mouse / Mice"
   },
   {
-    "question": "Mongoose",
-    "answer": "Mungos"
+    "question": "Mungos",
+    "answer": "Mongoose"
   },
   {
-    "question": "Rabbit",
-    "answer": "Zajec"
+    "question": "Zajec",
+    "answer": "Rabbit"
   },
   {
-    "question": "Chick / Chicken",
-    "answer": "Piščanec"
+    "question": "Piščanec",
+    "answer": "Chick / Chicken"
   },
   {
-    "question": "Dog",
-    "answer": "Pes"
+    "question": "Pes",
+    "answer": "Dog"
   },
   {
-    "question": "Sheep",
-    "answer": "Ovca"
+    "question": "Ovca",
+    "answer": "Sheep"
   },
   {
-    "question": "Cow",
-    "answer": "Krava"
+    "question": "Krava",
+    "answer": "Cow"
   },
   {
-    "question": "Turkey",
-    "answer": "Puran"
+    "question": "Puran",
+    "answer": "Turkey"
   },
   {
-    "question": "Rooster / Cockerel",
-    "answer": "Petelin"
+    "question": "Petelin",
+    "answer": "Rooster / Cockerel"
   },
   {
-    "question": "Horse",
-    "answer": "Konj"
+    "question": "Konj",
+    "answer": "Horse"
   },
   {
-    "question": "Goat",
-    "answer": "Koza"
+    "question": "Koza",
+    "answer": "Goat"
   },
   {
-    "question": "Duck / Ducklings",
-    "answer": "Raca / Račke"
+    "question": "Raca / Račke",
+    "answer": "Duck / Ducklings"
   },
   {
-    "question": "Pig",
-    "answer": "Prašič"
+    "question": "Prašič",
+    "answer": "Pig"
   },
   {
-    "question": "Swallow",
-    "answer": "Lastovka"
+    "question": "Lastovka",
+    "answer": "Swallow"
   },
   {
-    "question": "Donkey",
-    "answer": "Osel"
+    "question": "Osel",
+    "answer": "Donkey"
   },
   {
-    "question": "Goose / Geese",
-    "answer": "Gos / Gosi"
+    "question": "Gos / Gosi",
+    "answer": "Goose / Geese"
   },
   {
-    "question": "Hen",
-    "answer": "Kokoš"
+    "question": "Kokoš",
+    "answer": "Hen"
   },
   {
-    "question": "Cat",
-    "answer": "Mačka"
+    "question": "Mačka",
+    "answer": "Cat"
   },
   {
-    "question": "Penguin",
-    "answer": "Pingvin"
+    "question": "Pingvin",
+    "answer": "Penguin"
   },
   {
-    "question": "Squirrel",
-    "answer": "Veverica"
+    "question": "Veverica",
+    "answer": "Squirrel"
   },
   {
-    "question": "Kangaroo",
-    "answer": "Kenguru"
+    "question": "Kenguru",
+    "answer": "Kangaroo"
   },
   {
     "question": "Zebra",
     "answer": "Zebra"
   },
   {
-    "question": "Whale",
-    "answer": "Kit"
+    "question": "Kit",
+    "answer": "Whale"
   },
   {
-    "question": "Elephant",
-    "answer": "Slon"
+    "question": "Slon",
+    "answer": "Elephant"
   },
   {
     "question": "Tiger",
     "answer": "Tiger"
   },
   {
-    "question": "Ostrich",
-    "answer": "Noj"
+    "question": "Noj",
+    "answer": "Ostrich"
   },
   {
-    "question": "Fish",
-    "answer": "Riba"
+    "question": "Riba",
+    "answer": "Fish"
   },
   {
-    "question": "Stork",
-    "answer": "Štorklja"
+    "question": "Štorklja",
+    "answer": "Stork"
   },
   {
-    "question": "Lion",
-    "answer": "Lev"
+    "question": "Lev",
+    "answer": "Lion"
   },
   {
-    "question": "Crocodile",
-    "answer": "Krokodil"
+    "question": "Krokodil",
+    "answer": "Crocodile"
   },
   {
-    "question": "Hippo",
-    "answer": "Povodni konj"
+    "question": "Povodni konj",
+    "answer": "Hippo"
   },
   {
     "question": "Panda",
     "answer": "Panda"
   },
   {
-    "question": "Giraffe",
-    "answer": "Žirafa"
+    "question": "Žirafa",
+    "answer": "Giraffe"
   },
   {
-    "question": "Dolphin",
-    "answer": "Delfin"
+    "question": "Delfin",
+    "answer": "Dolphin"
   },
   {
-    "question": "Bear",
-    "answer": "Medved"
+    "question": "Medved",
+    "answer": "Bear"
   },
   {
-    "question": "Llama",
-    "answer": "Lama"
+    "question": "Lama",
+    "answer": "Llama"
   },
   {
-    "question": "Snake",
-    "answer": "Kača"
+    "question": "Kača",
+    "answer": "Snake"
   },
   {
-    "question": "Spider",
-    "answer": "Pajek"
+    "question": "Pajek",
+    "answer": "Spider"
   },
   {
-    "question": "Swan",
-    "answer": "Labod"
+    "question": "Labod",
+    "answer": "Swan"
   },
   {
-    "question": "Roof",
-    "answer": "Streha"
+    "question": "Streha",
+    "answer": "Roof"
   },
   {
-    "question": "Nest",
-    "answer": "Gnezdo"
+    "question": "Gnezdo",
+    "answer": "Nest"
   },
   {
-    "question": "Meadow",
-    "answer": "Travnik"
+    "question": "Travnik",
+    "answer": "Meadow"
   },
   {
-    "question": "Tree",
-    "answer": "Drevo"
+    "question": "Drevo",
+    "answer": "Tree"
   },
   {
-    "question": "Stable",
-    "answer": "Hlev"
+    "question": "Hlev",
+    "answer": "Stable"
   },
   {
-    "question": "Grass",
-    "answer": "Trava"
+    "question": "Trava",
+    "answer": "Grass"
   },
   {
-    "question": "Mud",
-    "answer": "Blato"
+    "question": "Blato",
+    "answer": "Mud"
   },
   {
-    "question": "Pond",
-    "answer": "Ribnik"
+    "question": "Ribnik",
+    "answer": "Pond"
   },
   {
-    "question": "Shell",
-    "answer": "Lupina / Oklep"
+    "question": "Lupina / Oklep",
+    "answer": "Shell"
   },
   {
-    "question": "Tusk",
-    "answer": "Okel"
+    "question": "Okel",
+    "answer": "Tusk"
   },
   {
-    "question": "Horn / Horns",
-    "answer": "Rog / Rogovi"
+    "question": "Rog / Rogovi",
+    "answer": "Horn / Horns"
   },
   {
-    "question": "Claw",
-    "answer": "Krempelj"
+    "question": "Krempelj",
+    "answer": "Claw"
   },
   {
-    "question": "Beak",
-    "answer": "Kljun"
+    "question": "Kljun",
+    "answer": "Beak"
   },
   {
-    "question": "Wing",
-    "answer": "Krilo"
+    "question": "Krilo",
+    "answer": "Wing"
   },
   {
-    "question": "Tail",
-    "answer": "Rep"
+    "question": "Rep",
+    "answer": "Tail"
   },
   {
-    "question": "Fin",
-    "answer": "Plavut"
+    "question": "Plavut",
+    "answer": "Fin"
   },
   {
-    "question": "Gills",
-    "answer": "Škrge"
+    "question": "Škrge",
+    "answer": "Gills"
   },
   {
-    "question": "Scales",
-    "answer": "Luske"
+    "question": "Luske",
+    "answer": "Scales"
   },
   {
-    "question": "Hoofs",
-    "answer": "Kopita"
+    "question": "Kopita",
+    "answer": "Hoofs"
   },
   {
-    "question": "Whiskers",
-    "answer": "Brki"
+    "question": "Brki",
+    "answer": "Whiskers"
   },
   {
-    "question": "Trunk / Snout",
-    "answer": "Surla / Rilec / Gobec"
+    "question": "Surla / Rilec / Gobec",
+    "answer": "Trunk / Snout"
   },
   {
-    "question": "Mane",
-    "answer": "Griva"
+    "question": "Griva",
+    "answer": "Mane"
   },
   {
-    "question": "Paw",
-    "answer": "Tačka"
+    "question": "Tačka",
+    "answer": "Paw"
   },
   {
-    "question": "Feathers",
-    "answer": "Perje"
+    "question": "Perje",
+    "answer": "Feathers"
   },
   {
-    "question": "Funny",
-    "answer": "Zabaven"
+    "question": "Zabaven",
+    "answer": "Funny"
   },
   {
-    "question": "Lazy",
-    "answer": "Len"
+    "question": "Len",
+    "answer": "Lazy"
   },
   {
-    "question": "Friendly",
-    "answer": "Prijazen"
+    "question": "Prijazen",
+    "answer": "Friendly"
   },
   {
-    "question": "Boring",
-    "answer": "Dolgočasen"
+    "question": "Dolgočasen",
+    "answer": "Boring"
   },
   {
-    "question": "Weak",
-    "answer": "Šibek"
+    "question": "Šibek",
+    "answer": "Weak"
   },
   {
-    "question": "Strong",
-    "answer": "Močan"
+    "question": "Močan",
+    "answer": "Strong"
   },
   {
-    "question": "Hard-working",
-    "answer": "Marljiv"
+    "question": "Marljiv",
+    "answer": "Hard-working"
   },
   {
-    "question": "Dangerous",
-    "answer": "Nevaren"
+    "question": "Nevaren",
+    "answer": "Dangerous"
   },
   {
-    "question": "Brave",
-    "answer": "Pogumen"
+    "question": "Pogumen",
+    "answer": "Brave"
   },
   {
-    "question": "Wild",
-    "answer": "Divji"
+    "question": "Divji",
+    "answer": "Wild"
   },
   {
-    "question": "Tame",
-    "answer": "Ukročen / Domač"
+    "question": "Ukročen / Domač",
+    "answer": "Tame"
   },
   {
-    "question": "Quiet",
-    "answer": "Tiho / Tih"
+    "question": "Tiho / Tih",
+    "answer": "Quiet"
   },
   {
-    "question": "Shy",
-    "answer": "Sramožljiv"
+    "question": "Sramožljiv",
+    "answer": "Shy"
   },
   {
-    "question": "Fast",
-    "answer": "Hiter"
+    "question": "Hiter",
+    "answer": "Fast"
   },
   {
-    "question": "Big",
-    "answer": "Velik"
+    "question": "Velik",
+    "answer": "Big"
   },
   {
-    "question": "Tall",
-    "answer": "Visok"
+    "question": "Visok",
+    "answer": "Tall"
   },
   {
-    "question": "Loud",
-    "answer": "Glasen"
+    "question": "Glasen",
+    "answer": "Loud"
   },
   {
-    "question": "To give wool",
-    "answer": "Dajati volno"
+    "question": "Dajati volno",
+    "answer": "To give wool"
   },
   {
-    "question": "To give milk",
-    "answer": "Dajati mleko"
+    "question": "Dajati mleko",
+    "answer": "To give milk"
   },
   {
-    "question": "To guard the house",
-    "answer": "Čuvati hišo"
+    "question": "Čuvati hišo",
+    "answer": "To guard the house"
   },
   {
-    "question": "To keep company",
-    "answer": "Delati nam družbo"
+    "question": "Delati nam družbo",
+    "answer": "To keep company"
   },
   {
-    "question": "To give eggs",
-    "answer": "Dajati jajca"
+    "question": "Dajati jajca",
+    "answer": "To give eggs"
   },
   {
-    "question": "To give meat",
-    "answer": "Dajati meso"
+    "question": "Dajati meso",
+    "answer": "To give meat"
   },
   {
-    "question": "To climb trees",
-    "answer": "Plezati na drevesa"
+    "question": "Plezati na drevesa",
+    "answer": "To climb trees"
   },
   {
-    "question": "To run fast",
-    "answer": "Hitro teči"
+    "question": "Hitro teči",
+    "answer": "To run fast"
   },
   {
-    "question": "To dig holes",
-    "answer": "Kopati luknje"
+    "question": "Kopati luknje",
+    "answer": "To dig holes"
   },
   {
-    "question": "To collect nuts",
-    "answer": "Zbirati oreščke"
+    "question": "Zbirati oreščke",
+    "answer": "To collect nuts"
   },
   {
-    "question": "To sleep on their feet",
-    "answer": "Spati stoje"
+    "question": "Spati stoje",
+    "answer": "To sleep on their feet"
   },
   {
-    "question": "To treat animals with respect",
-    "answer": "Ravnati z živalmi s spoštovanjem"
+    "question": "Ravnati z živalmi s spoštovanjem",
+    "answer": "To treat animals with respect"
   },
   {
-    "question": "A horse is big, fast, tall and strong.",
-    "answer": "Konj je velik, hiter, visok in močan."
+    "question": "Konj je velik, hiter, visok in močan.",
+    "answer": "A horse is big, fast, tall and strong."
   },
   {
-    "question": "A crocodile is big, wild, strong and dangerous.",
-    "answer": "Krokodil je velik, divji, močan in nevaren."
+    "question": "Krokodil je velik, divji, močan in nevaren.",
+    "answer": "A crocodile is big, wild, strong and dangerous."
   },
   {
-    "question": "A cat is quiet, friendly and lazy.",
-    "answer": "Mačka je tiha, prijazna in lena."
+    "question": "Mačka je tiha, prijazna in lena.",
+    "answer": "A cat is quiet, friendly and lazy."
   },
   {
-    "question": "A rabbit is small, weak, fast, quiet, shy and friendly.",
-    "answer": "Zajec je majhen, šibek, hiter, tih, sramežljiv in prijazen."
+    "question": "Zajec je majhen, šibek, hiter, tih, sramežljiv in prijazen.",
+    "answer": "A rabbit is small, weak, fast, quiet, shy and friendly."
   },
   {
-    "question": "The giraffe is a very interesting animal.",
-    "answer": "Žirafa je zelo zanimiva žival."
+    "question": "Žirafa je zelo zanimiva žival.",
+    "answer": "The giraffe is a very interesting animal."
   },
   {
-    "question": "It has a long neck, long legs and spots over its body.",
-    "answer": "Ima dolg vrat, dolge noge in lise po telesu."
+    "question": "Ima dolg vrat, dolge noge in lise po telesu.",
+    "answer": "It has a long neck, long legs and spots over its body."
   },
   {
-    "question": "It has two horns on the top of its head and a long hairy tongue.",
-    "answer": "Ima dva rogova na vrhu glave in dolg kosmat jezik."
+    "question": "Ima dva rogova na vrhu glave in dolg kosmat jezik.",
+    "answer": "It has two horns on the top of its head and a long hairy tongue."
   },
   {
-    "question": "A penguin can't fly but it can swim.",
-    "answer": "Pingvin ne more leteti, ampak lahko plava."
+    "question": "Pingvin ne more leteti, ampak lahko plava.",
+    "answer": "A penguin can't fly but it can swim."
   },
   {
-    "question": "A squirrel can't speak but it can collect nuts.",
-    "answer": "Veverica ne more govoriti, ampak lahko zbira oreščke."
+    "question": "Veverica ne more govoriti, ampak lahko zbira oreščke.",
+    "answer": "A squirrel can't speak but it can collect nuts."
   },
   {
-    "question": "A goose can't jump but it can fly.",
-    "answer": "Gos ne more skakati, ampak lahko leti."
+    "question": "Gos ne more skakati, ampak lahko leti.",
+    "answer": "A goose can't jump but it can fly."
   },
   {
-    "question": "A kangaroo can't swim but it can jump.",
-    "answer": "Kenguru ne more plavati, ampak lahko skače."
+    "question": "Kenguru ne more plavati, ampak lahko skače.",
+    "answer": "A kangaroo can't swim but it can jump."
   },
   {
-    "question": "A zebra can't jump from tree to tree but it can run fast.",
-    "answer": "Zebra ne more skakati z drevesa na drevo, ampak lahko hitro teče."
+    "question": "Zebra ne more skakati z drevesa na drevo, ampak lahko hitro teče.",
+    "answer": "A zebra can't jump from tree to tree but it can run fast."
   },
   {
-    "question": "One day he finds a bone.",
-    "answer": "Nekega dne najde kost."
+    "question": "Nekega dne najde kost.",
+    "answer": "One day he finds a bone."
   },
   {
-    "question": "He puts it in his mouth and wants to take it home.",
-    "answer": "Vzame jo v usta in jo želi odnesti domov."
+    "question": "Vzame jo v usta in jo želi odnesti domov.",
+    "answer": "He puts it in his mouth and wants to take it home."
   },
   {
-    "question": "On the way home he crosses a bridge.",
-    "answer": "Na poti domov prečka most."
+    "question": "Na poti domov prečka most.",
+    "answer": "On the way home he crosses a bridge."
   },
   {
-    "question": "He looks down into the water.",
-    "answer": "Pogleda dol v vodo."
+    "question": "Pogleda dol v vodo.",
+    "answer": "He looks down into the water."
   },
   {
-    "question": "He sees a dog with a big bone.",
-    "answer": "Vidi psa z veliko kostjo."
+    "question": "Vidi psa z veliko kostjo.",
+    "answer": "He sees a dog with a big bone."
   },
   {
-    "question": "He snaps at the picture in the water.",
-    "answer": "Prime po podobi v vodi."
+    "question": "Prime po podobi v vodi.",
+    "answer": "He snaps at the picture in the water."
   },
   {
-    "question": "When he opens his mouth, he loses his bone.",
-    "answer": "Ko odpre usta, izgubi svojo kost."
+    "question": "Ko odpre usta, izgubi svojo kost.",
+    "answer": "When he opens his mouth, he loses his bone."
   },
   {
-    "question": "Poor Snuffy doesn't know he sees himself in the water.",
-    "answer": "Revni Snuffy ne ve, da vidi samega sebe v vodi."
+    "question": "Revni Snuffy ne ve, da vidi samega sebe v vodi.",
+    "answer": "Poor Snuffy doesn't know he sees himself in the water."
   },
   {
-    "question": "When the cat's away the mice will play.",
-    "answer": "Kadar mačke ni doma, miši plešejo."
+    "question": "Kadar mačke ni doma, miši plešejo.",
+    "answer": "When the cat's away the mice will play."
   },
   {
-    "question": "Hens give eggs and meat to people.",
-    "answer": "Kokoši dajejo ljudem jajca in meso."
+    "question": "Kokoši dajejo ljudem jajca in meso.",
+    "answer": "Hens give eggs and meat to people."
   },
   {
-    "question": "A dog guards the house and keeps us company.",
-    "answer": "Pes čuva hišo in nam dela družbo."
+    "question": "Pes čuva hišo in nam dela družbo.",
+    "answer": "A dog guards the house and keeps us company."
   },
   {
-    "question": "A cow gives milk and meat to people.",
-    "answer": "Krava daje ljudem mleko in meso."
+    "question": "Krava daje ljudem mleko in meso.",
+    "answer": "A cow gives milk and meat to people."
   },
   {
-    "question": "Giraffes sleep on their feet.",
-    "answer": "Žirafe spijo stoje."
+    "question": "Žirafe spijo stoje.",
+    "answer": "Giraffes sleep on their feet."
   }
 ]
