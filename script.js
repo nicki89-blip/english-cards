@@ -1,4 +1,4 @@
-// 📗 Seznam naborov
+// 📗 Seznam naborov (List of datasets)
 const DATASETS = [
   { id: "all",   name: "Vse besede", url: "english_words.json" },
   { id: "combined", name: "Vse enote skupaj (Unit 1 + Unit 2)", url: null, combined: ["unit1.json", "unit2.json"] },
@@ -39,18 +39,24 @@ function shuffle(arr) {
 
 async function fetchCards(dataset){
   let allData = [];
+  const timestamp = Date.now(); // Cache busting
   
   // If it's a combined dataset, fetch multiple files
   if (dataset.combined) {
     for (const url of dataset.combined) {
-      const resp = await fetch(url, { cache: "no-store" });
-      if (!resp.ok) throw new Error("Napaka pri prenosu (" + resp.status + ")");
-      const data = await resp.json();
-      allData = allData.concat(data);
+      try {
+        const resp = await fetch(url + '?t=' + timestamp);
+        if (!resp.ok) throw new Error("Napaka pri prenosu " + url + " (" + resp.status + ")");
+        const data = await resp.json();
+        allData = allData.concat(data);
+      } catch (error) {
+        console.error("Error fetching " + url + ":", error);
+        throw error;
+      }
     }
   } else {
     // Single file fetch
-    const resp = await fetch(dataset.url, { cache: "no-store" });
+    const resp = await fetch(dataset.url + '?t=' + timestamp);
     if (!resp.ok) throw new Error("Napaka pri prenosu (" + resp.status + ")");
     allData = await resp.json();
   }
@@ -96,6 +102,9 @@ class FlashcardApp {
     this.touchStartX = 0;
     this.touchEndX = 0;
 
+    // IMPORTANT: Bind handleKey so we can remove it later
+    this.handleKey = this.handleKey.bind(this);
+
     this.initializeElements();
     this.setupEventListeners();
     this.updateDisplay();
@@ -114,70 +123,67 @@ class FlashcardApp {
   }
 
   setupAudio(){
-    // Check if speech synthesis is available
     if ('speechSynthesis' in window) {
-      this.audioBtn.addEventListener('click', () => this.playAudio());
+      this.audioBtn.style.display = 'inline-block';
+      this.audioBtn.onclick = () => this.playAudio();
     } else {
-      this.audioBtn.style.display = 'none'; // Hide if not supported
+      this.audioBtn.style.display = 'none';
     }
   }
 
   playAudio(){
     const currentCard = this.cards[this.currentIndex];
-    
-    // Always speak the English text
     const textToSpeak = currentCard.english;
     
     if (textToSpeak && 'speechSynthesis' in window) {
-      // Cancel any ongoing speech
       window.speechSynthesis.cancel();
-      
       const utterance = new SpeechSynthesisUtterance(textToSpeak);
-      utterance.lang = 'en-US'; // Set to English
-      utterance.rate = 0.9; // Slightly slower for clarity
-      utterance.pitch = 1;
-      
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9; 
       window.speechSynthesis.speak(utterance);
     }
   }
 
   setupEventListeners(){
-    this.cardElement.addEventListener('click', () => this.flipCard());
-    this.prevBtn.addEventListener('click', () => this.previousCard());
-    this.nextBtn.addEventListener('click', () => this.nextCard());
+    // Button clicks
+    this.cardElement.onclick = () => this.flipCard();
+    this.prevBtn.onclick = () => this.previousCard();
+    this.nextBtn.onclick = () => this.nextCard();
     
-    // Keyboard navigation
-    document.addEventListener('keydown', (e) => {
-      switch(e.code){
-        case 'ArrowLeft': e.preventDefault(); this.previousCard(); break;
-        case 'ArrowRight': e.preventDefault(); this.nextCard(); break;
-        case 'Space': e.preventDefault(); this.flipCard(); break;
-      }
-    });
+    // Keyboard navigation (Global Listener)
+    document.addEventListener('keydown', this.handleKey);
 
-    // Touch/Swipe events for mobile
-    this.cardElement.addEventListener('touchstart', (e) => {
+    // Touch/Swipe events
+    this.cardElement.ontouchstart = (e) => {
       this.touchStartX = e.changedTouches[0].screenX;
-    }, false);
+    };
 
-    this.cardElement.addEventListener('touchend', (e) => {
+    this.cardElement.ontouchend = (e) => {
       this.touchEndX = e.changedTouches[0].screenX;
       this.handleSwipe();
-    }, false);
+    };
+  }
+
+  // CRITICAL FIX: Method to clean up the keyboard listener
+  destroy() {
+    document.removeEventListener('keydown', this.handleKey);
+  }
+
+  handleKey(e) {
+    switch(e.code){
+      case 'ArrowLeft': e.preventDefault(); this.previousCard(); break;
+      case 'ArrowRight': e.preventDefault(); this.nextCard(); break;
+      case 'Space': e.preventDefault(); this.flipCard(); break;
+    }
   }
 
   handleSwipe(){
-    const swipeThreshold = 50; // Minimum distance for swipe
+    const swipeThreshold = 50;
     const diff = this.touchStartX - this.touchEndX;
 
     if (Math.abs(diff) > swipeThreshold) {
-      if (diff > 0) {
-        // Swiped left - next card
-        this.nextCard();
-      } else {
-        // Swiped right - previous card
-        this.previousCard();
-      }
+      if (diff > 0) this.nextCard();
+      else this.previousCard();
     }
   }
 
@@ -189,7 +195,6 @@ class FlashcardApp {
   previousCard(){
     if (this.cards.length === 0) return;
     this.currentIndex--;
-    // Loop to end if at beginning
     if (this.currentIndex < 0) {
         this.currentIndex = this.cards.length - 1;
     }
@@ -199,7 +204,6 @@ class FlashcardApp {
   nextCard(){
     if (this.cards.length === 0) return;
     this.currentIndex++;
-    // Loop to start if at end
     if (this.currentIndex >= this.cards.length) {
         this.currentIndex = 0;
     }
@@ -207,45 +211,67 @@ class FlashcardApp {
   }
 
   updateDisplay(){
-    // Update text
     const currentCard = this.cards[this.currentIndex];
     this.cardFront.textContent = currentCard.front;
     this.cardBack.textContent  = currentCard.back;
 
-    // Reset flip state
     this.isFlipped = false;
     this.cardElement.classList.remove('flipped');
 
-    // Update counter
     this.cardCounter.textContent = `Kartica ${this.currentIndex + 1} od ${this.cards.length}`;
     
-    // Enable buttons
     this.prevBtn.disabled = false;
     this.nextBtn.disabled = false;
     this.audioBtn.disabled = false;
   }
 }
 
-// 🚀 Initialization
+// 🚀 Initialization Logic
 buildDatasetSelect();
 
 const reloadBtn = document.getElementById("reloadBtn");
+
+// Helper to clear old button listeners
+function clearDomListeners() {
+  ['prevBtn', 'nextBtn', 'audioBtn', 'flashcard'].forEach(id => {
+    const el = document.getElementById(id);
+    const newEl = el.cloneNode(true);
+    el.parentNode.replaceChild(newEl, el);
+  });
+}
+
 reloadBtn.addEventListener("click", async () => {
   const ds = currentDataset();
   localStorage.setItem(SELECT_KEY, ds.id);
+  
+  // 1. Clean up previous app instance (Keyboard)
+  if (window.app) {
+    window.app.destroy();
+  }
+
+  // 2. Clean up DOM buttons (Clicks)
+  clearDomListeners();
+
   setLoadingUI(true);
+  
   try {
     const cards = await fetchCards(ds);
+    if (cards.length === 0) throw new Error("No cards loaded");
+    
+    // 3. Create new app instance
     window.app = new FlashcardApp(cards);
   } catch (err){
     console.error(err);
     document.getElementById('cardFront').textContent = "Napaka pri nalaganju kartic 😢";
-    document.getElementById('cardBack').textContent = "(preveri URL)";
+    document.getElementById('cardBack').textContent = "(preveri JSON datoteke)";
   } finally {
     setLoadingUI(false);
   }
 });
 
+// Load immediately on start
 if (localStorage.getItem(SELECT_KEY)){
+  reloadBtn.click();
+} else {
   reloadBtn.click();
 }
